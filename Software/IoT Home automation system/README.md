@@ -1,7 +1,6 @@
 ## Output
 
 ## Connections
-# Arduino Mega Pin Connections for Smart Home System
 
 This table provides the pin connections between the Arduino Mega and various modules used in the smart home system.
 
