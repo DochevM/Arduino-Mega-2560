@@ -9,7 +9,6 @@
 ![alt text](https://github.com/DochevM/Arduino-Mega-2560/blob/main/Documents/Buttons_alignment.png)
 
 ![alt text](https://github.com/DochevM/Arduino-Mega-2560/blob/main/Documents/Elements_alignment.jpg)
-![alt text](https://github.com/DochevM/Arduino-Mega-2560/blob/main/Documents/Elements_alignment_2.jpg)
 
 - Then click the top left button "Blocks"
 - Add and align the following blocks:
