@@ -1,4 +1,4 @@
-# Mobile aplication making(in .apk format)
+# Mobile aplication making(for Android)
 
 - Go to: https://appinventor.mit.edu
 - Click "Create apps" in top right corner
