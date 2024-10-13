@@ -1,5 +1,5 @@
-## Output
-
+## Mobile Application overview
+![alt text](https://github.com/DochevM/Arduino-Mega-2560/blob/main/Documents/Home_screen.jpg), (https://github.com/DochevM/Arduino-Mega-2560/blob/main/Documents/Buttons_Screen.jpg)
 ## Connections
 
 This table provides the pin connections between the Arduino Mega and various modules used in the smart home system.
