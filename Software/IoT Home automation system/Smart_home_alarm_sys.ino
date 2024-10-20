@@ -59,27 +59,29 @@ char Password[Password_Length];
 char Master[Password_Length] = "1302";
 byte data_count = 0;
 
-
+//KeyBoard key alignment
 char keys[ROWS][COLS] = {
     {'1', '2', '3', 'A'},
     {'4', '5', '6', 'B'},
     {'7', '8', '9', 'C'},
     {'*', '0', '#', 'D'}
 };
-
+//KeyBoard pins
 byte rowPins[ROWS] = {9, 8, 7, 6};
 byte colPins[COLS] = {5, 4, 3, 2};
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 void setup() {
+    //initialization and calling of the sensors, modules and etc.  
     dht.begin();
     Serial.begin(9600);
     delay(100);
-    SPI.begin(); // init SPI bus
-    rfid.PCD_Init(); // init MFRC522
-
+    SPI.begin(); 
+    rfid.PCD_Init(); 
+    //"attaching" to the pin for the servo motors
     servo.attach(ServoPin);
     Roof.attach(RoofS);
+    
     servo.write(angle);
 
     // Setting Pin Modes
@@ -114,6 +116,7 @@ void setup() {
 }
 
 void loop() {
+    //Function calling
     TempDisplay();
     RFID();
     BTHControl();
@@ -126,7 +129,7 @@ void loop() {
     Smoke();
     LedLamp();
 }
-
+//Function making
 void TouchS(){
   if(Tval == HIGH){
     stop = false;
