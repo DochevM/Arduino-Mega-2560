@@ -56,7 +56,7 @@ const byte ROWS = 4;
 const byte COLS = 4;
 char key;
 char Password[Password_Length];
-char Master[Password_Length] = "1302";
+char Master[Password_Length] = "1234";
 byte data_count = 0;
 
 //KeyBoard key alignment
